@@ -39,7 +39,7 @@
 
   .navbar-custom a{
       color: #ffffff !important;
-      font-size: 1rem;
+      font-size: 0.9rem;
   }
   
   
@@ -78,12 +78,17 @@
   
   
   .navbar-custom button{
-      outline: #E62B1E;
+    border: 1px solid #E62B1E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    
   }
   
   
   .navbar-custom button:hover{
       background-color: #E62B1E;
+      transition: 0.3s;
   }
   
   
@@ -107,6 +112,50 @@
   width: 100%;
   
 }
+
+
+/* Header-section */
+
+
+.header-section{
+  background: url("Resources/Images/Speakers/Speakers-background.png")  no-repeat center center fixed;;
+   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-section p{
+  /* Ted White */
+
+color: #FFFFFF;
+
+opacity: 0.6;
+font-size: 0.9rem;
+line-height: 130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
